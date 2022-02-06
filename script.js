@@ -12,6 +12,8 @@ const dateYear = date.getFullYear();
 
 let dateSale = dateDate + (7 - dateDay + 1);
 
+// let dateSale = dateDate + 1;
+
 if(dateDay == 0){
     dateSale = dateDate + 1;
 }
@@ -22,7 +24,7 @@ if(dateDate > 24){
 }
 
 if(dateSale < 10){
-    dateSale = "0" + dateDate;
+    dateSale = "0" + dateSale;
 }
 
 if(dateMonth < 10){
